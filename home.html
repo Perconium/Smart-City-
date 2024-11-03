@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Presentation</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Smart Home</h1>
+        <h2>The Future of Living</h2>
+    </header>
+    
+    <section class="intro">
+        <h2>Smart Door & Garage</h2>
+        <p>Our smart home features an innovative automatic door system and a garage that enhances convenience, security, and hygiene.</p>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h2 >Smart Door</h3>
+            <p>Utilizes a motor and sensor connected to Arduino to open automatically.</p>
+            <section class="carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <img style="height: auto; width: auto;" src="https://geekyelectronics.com/wp-content/uploads/2023/12/Arduino-automatic-door-opener.jpg" alt="Smart Door Image 1">
+                        <img style="height: auto; width: auto;" src="https://www.electronicshub.org/wp-content/uploads/2018/01/Automatic-Door-Opener-using-Arduino-and-PIR-Sensor-Image-1-760x440.jpg" alt="Smart Door Image 2">
+                        <img style="height: auto; width: auto;" src="https://srrobotics.in/wp-content/uploads/2022/07/door-system-png.png" alt="Smart Door Image 3">
+                    </div>
+                    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+                </div>
+            </section>
+         
+        </div>
+        <div class="feature">
+            <h2>Smart Garage</h3>
+            <p>Works on the same principle as the smart door for seamless access.</p>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <h2>Benefits of Automatic Doors</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Criteria</th>
+                    <th>Merits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hygiene</td>
+                    <td>Minimized contact with surfaces reduces the spread of germs.</td>
+                </tr>
+                <tr>
+                    <td>Efficiency</td>
+                    <td>Quick access to and from the home without manual effort.</td>
+                </tr>
+                <tr>
+                    <td>Security</td>
+                    <td>Integrated sensors provide enhanced security features.</td>
+                </tr>
+                <tr>
+                    <td>Accessibility</td>
+                    <td>Ideal for elderly or disabled individuals needing assistance.</td>
+                </tr>
+                <tr>
+                    <td>Convenience</td>
+                    <td>Provides hands-free access for carrying items.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+       <b><p>Designed for the future. Empowered by technology.</p></b>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>

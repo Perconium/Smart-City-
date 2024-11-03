@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart City Project Overview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="color: rgb(225, 238, 38);">Smart City </h1>
+        <nav>
+            <ul>
+                <li><a href="#smart-home">Smart Home</a></li>
+                <li><a href="#smart-car">Smart Car</a></li>
+                <li><a href="#hospital">Hospital</a></li>
+                <li><a href="#school">School</a></li>
+                <li><a href="#what-is-arduino">How Arduino Works</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>What is a Smart City?</h2>
+            <p>A smart city uses information and communication technology (ICT) to enhance operational efficiency, share information with the public, and improve the quality of government services and citizen welfare.</p>
+        </section>
+        <div>
+            <img style="height: 350px; width:500px; border-radius: 2%;border-style:solid;" src="xcity.png">
+        </div>
+<hr>
+        <section>
+            <h2>Uses of Smart City Technology</h2>
+            <ul>
+                <li>Traffic Management</li>
+                <li>Waste Management</li>
+                <li>Energy Management</li>
+                <li>Public Safety and Security</li>
+                <li>Environmental Monitoring</li>
+                <li>Smart Healthcare Services</li>
+                <li>Smart Education Systems</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>Needs for Smart City Development</h2>
+            <ol>
+                <li>Infrastructure Investment</li>
+                <li>Public-Private Partnerships</li>
+                <li>Data Privacy and Security Measures</li>
+                <li>Citizen Engagement and Participation</li>
+                <li>Technological Innovation and Research</li>
+                <li>Regulatory Frameworks</li>
+            </ol>
+        </section>
+        <hr>
+        <section>
+            <h2>Importance of Smart Cities</h2>
+            <ul>
+                <li>Enhances Quality of Life for Residents</li>
+                <li>Promotes Sustainable Urban Development</li>
+                <li>Improves Economic Growth and Job Creation</li>
+                <li>Increases Efficiency in Resource Management</li>
+                <li>Facilitates Better Public Services</li>
+                <li>Addresses Urban Challenges like Traffic Congestion and Pollution</li>
+            </ul>
+        </section><br>
+        <hr style="height: 3px ;width: 810px;border-radius: 20%; background-color: black;">
+        <br>
+        <section id="what-is-arduino">
+            <h2 style="color: rgb(0, 148, 104);">What is Arduino?</h2>
+            <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's designed for anyone making interactive projects.</p>
+        </section>
+       <span><img style="height: 300px; width: 350px; border-width:5px ;border-color: black;border-radius: 2%;border-style:double;" src="https://www.electronicsmedia.info/wp-content/uploads/2019/02/Hardware-Structure-of-Arduino-Uno.png"></span>
+       <span><img style="height: 300px; width: 350px; border-width:5px ;border-color: black;border-radius: 2%;border-style:double;" src="https://m.media-amazon.com/images/I/61AvdQOxFzL.jpg"></span>
+
+        <section id="components">
+            <h2 style="color: rgb(0, 148, 104);">Components of Arduino Board</h2>
+            <ul>
+                <li><strong>Microcontroller:</strong> The brain of the Arduino board.</li>
+                <li><strong>Digital I/O Pins:</strong> Used to connect various components.</li>
+                <li><strong>Analog Input Pins:</strong> Used to read analog signals.</li>
+                <li><strong>Power Supply:</strong> Provides power to the board and connected components.</li>
+            </ul>
+            <p><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3DgMo0LSZIIFU&psig=AOvVaw32OY_D2NQt2qkuvWNTsRUk&ust=1730442076225000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCahZ79t4kDFQAAAAAdAAAAABAI">
+                <img style="height: 300px; width: 500px; border-width:5px ;border-color: black;border-radius: 2%;border-style:double;" src="https://i.ytimg.com/vi/gMo0LSZIIFU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBUlNeY_2KDUmkJn0N1FJ4vLZSRVQ" alt="components of arudino" width="100" height="132">
+                </a></p>
+           
+        </ul>
+        </section>
+        <section id="interactive">
+            <h2 style="color: rgb(0, 148, 104);">Interactive Practicals</h2>
+            <p>Try simulating a simple LED blink program below:</p>
+            <button id="simulate">Simulate LED Blink</button>
+            <div id="output" class="output"></div>
+        </section><br><br>
+        <section id="school" class="card" onclick="openModal('school-modal')">
+            <a style="color: black; font-size: 22px;" href="school.html">Smart School</a>
+           
+        
+        </section>
+
+        <section id="smart-home" class="card" onclick="openModal('smart-home-modal')">
+            <a style="color: black; font-size: 22px;" href="home.html">Smart Home</a>
+         
+
+        </section>
+        
+
+        <section id="smart-car" class="card" onclick="openModal('smart-car-modal')">
+            <a style="color: black; font-size: 22px;" href="car.html">Smart Car</a>
+         
+    
+        </section>
+
+        <section id="hospital" class="card" onclick="openModal('hospital-modal')">
+            <a style="color: black; font-size: 22px;" href="hospital.html">Smart Hospital</a>
+          
+        </section>
+
+
+
+ 
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Smart City Project. All rights reserved :)</p>
+        <p>PROJECT CREDITS - </p>
+          <p style="color: rgb(0, 255, 0);"> Harsh Singh 9th B<br>
+            Ayush Singh  9th A <br>
+            Parth Goswami 9th A<br>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

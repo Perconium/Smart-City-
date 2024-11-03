@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Car Project Presentation</title>
+    <link rel="stylesheet" href="car.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl.carousel/1.3.3/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl.carousel/1.3.3/assets/owl.carousel.css" />
+</head>
+
+<body>
+    <header>
+        <h1 style="color: aliceblue;">Smart Car </h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#applications">Applications</a></li>
+                <li><a href="#carousel">Image Carousel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section style="background-color: rgb(236, 236, 236);" id="overview">
+            <h2>Overview</h2>
+            <p>The Smart Car project utilizes Arduino and ultrasonic sensors to navigate and detect obstacles in its environment.</p>
+            <h3>Technical Specifications</h3>
+            <table>
+                <tr>
+                    <th>Component</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Microcontroller</td>
+                    <td>Arduino Uno</td>
+                </tr>
+                <tr>
+                    <td>Ultrasonic Sensor</td>
+                    <td>HC-SR04</td>
+                </tr>
+                <tr>
+                    <td>Motor Driver</td>
+                    <td>L298N</td>
+                </tr>
+                <tr>
+                    <td>Power Supply</td>
+                    <td>Rechargeable Battery</td>
+                </tr>
+            </table>
+             <section class="carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img style="height: auto; width: auto;" src="https://i0.wp.com/computronicslab.com/wp-content/uploads/2024/10/Obstacle-Avoidance-Robot-Car.png?fit=990%2C704&ssl=1" alt="Smart Door Image 1">
+                    <img style="height: auto; width: auto;" src="https://www.electrovigyan.com/wp-content/uploads/2021/04/6-pin.jpg" alt="Smart Door Image 2">
+                    <img style="height: auto; width: auto;" src="https://preview.redd.it/line-follower-and-obstacle-avoiding-robot-with-arduino-v0-38sfql4a39gd1.png?auto=webp&s=d5c608244313ccccf251a1e75c49d14375b2cbf4" alt="Smart Door Image 3">
+                </div>
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </section>
+        </section>
+
+        <section style="background-color: rgb(255, 255, 255);" id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Obstacle avoidance using ultrasonic sensors.</li>
+                <li>Remote control via Bluetooth.</li>
+                <li>Data logging for performance analysis.</li>
+                <li>Customizable behavior through Arduino code.</li>
+            </ul>
+        </section>
+
+        <section style="background-color: rgb(255, 255, 255);" id="applications">
+            <h2>Applications</h2>
+            <p>The Smart Car has several practical applications:</p>
+            <ol>
+                <li>Education: Learn robotics and programming.</li>
+                <li>Research: Explore autonomous navigation technologies.</li>
+                <li>Entertainment: Develop interactive toys and games.</li>
+            </ol>
+        </section>
+       
+    </main>
+
+    <footer>
+        <p style="color: aliceblue;">&copy; Designed for the future. Empowered by technology.</p>
+    </footer>
+
+    <script src="car.js"></script>
+</body>
+</html>
